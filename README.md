@@ -1,4 +1,4 @@
 # Dark Mode
 
 
-### A night Mode chrome extension. 
+ A night Mode chrome extension. 
