@@ -49,4 +49,12 @@ function night() {
    }
 
 }
-   night();
+
+console.log('content script');
+chrome.runtime.onMessage.addListener(Message);
+
+function Message(req, sender, res) {
+   console.log('recived ' + req.trigger);
+}
+
+night();
