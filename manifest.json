@@ -6,9 +6,8 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "assets/img/icon.png",
-    "default_popup": "popup.html"
-  },
+    "default_icon": "assets/img/icon.png"
+      },
   "permissions": [
     "activeTab",
     "storage"
@@ -17,5 +16,9 @@
     "css": ["assets/css/style.css"],
     "js": ["assets/js/content.js"],
     "matches": ["https://medium.com/*"]
-  }]
+  }],
+  "background":{
+       "scripts":["assets/js/background.js"]
+ }
+
 }
